@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+.bg-cream {
+  background-color: #ffffff;
+}
+
+.bg-dark {
+  background-image: url("/static/zigzag.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logo-image {
+  max-width: 75px;
+}
+
+nav .link {
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .logo-image {
+    max-width: 100px;
+  }
+}
+
+.front-page-image {
+  background-image: url("/static/atown-park-photo-1.jpg");
+  width: 833px;
+  color: #AA5C1A;
+  height: 533px;
+}
+
+.active {
+  border-bottom: 2px solid #333;
+}
+
+.atown-nav {
+  height: 65px;
+}
+/*# sourceMappingURL=index.css.map */
